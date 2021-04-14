@@ -1,0 +1,150 @@
+/* ----------------------------------------- */
+html, body {
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+body {
+  background-image: url("/images/background2.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  line-height: 3em;
+}
+
+ol.even {
+  position: relative;
+  left: 8.18182em;
+}
+
+ol.odd {
+  position: relative;
+  margin-top: -6.5%;
+  margin-bottom: -6.5%;
+}
+
+.hex {
+  position: relative;
+  margin: 10px auto;
+  width: 9em;
+  height: 15.3em;
+  border-radius: 1em/.5em;
+  background: #ccc;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  display: inline-block;
+  margin-right: 6.92308em;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.hex img {
+  position: absolute;
+  z-index: 100;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 100%;
+  margin: 52px auto;
+}
+
+.hex:before, .hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+}
+
+.hex:before {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.hex:after {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.hex:hover {
+  cursor: pointer;
+}
+
+.modalTitle {
+  vertical-align: middle;
+  margin: auto;
+  font-family: auto;
+  font-size: xxx-large;
+  list-style: none;
+}
+
+.modal-header {
+  margin-left: 50px;
+}
+
+.modal-header ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.close-animatedModal {
+  font-size: 35px;
+  float: right;
+  cursor: pointer;
+}
+
+.sei {
+  background: #e8eef6;
+}
+
+.sei:hover {
+  background: #d9e8fc;
+}
+
+.sei2 {
+  background: #d7e1f0;
+}
+
+.sei2:hover {
+  background: #d0def5;
+}
+
+.sei3 {
+  background: #c1dcbd;
+}
+
+.sei3:hover {
+  background: #a5ca9f;
+}
+
+.rye {
+  background: #f3e3c5;
+}
+
+.rye:hover {
+  background: #f5d9a5;
+}
+
+.olivasur {
+  background: #acbfa9;
+}
+
+.olivasur:hover {
+  background: #9cb199;
+}
+/*# sourceMappingURL=main.css.map */

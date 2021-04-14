@@ -1,0 +1,130 @@
+$hex-size: 9em; // Only change size here. Best used with sizes from 5em - 10em.
+
+
+
+
+/* ----------------------------------------- */
+html, body {
+  height: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+body{
+  background-image: url('/images/background2.jpg');
+  background-size: cover;
+}
+
+
+.container {
+  width: 1100px; 
+  margin: 0 auto;
+  line-height: 3em;
+}
+ol.even {
+  position: relative;
+  left: ($hex-size / 1.1);
+}
+ol.odd {
+  position: relative;
+  margin-top: -6.5%;
+  margin-bottom: -6.5%;
+}
+.hex {
+  position: relative;
+  margin: 10px auto;
+  width: $hex-size; height: ($hex-size * 1.7);
+  border-radius: 1em/.5em;
+  background: #ccc;
+  transform: rotate(-90deg);
+  display: inline-block;
+  margin-right: ($hex-size / 1.30);
+  transition: all 150ms ease-in-out;
+  img {
+    position: absolute;
+    z-index: 100;
+    transform: rotate(90deg);
+    width: 100%;
+    margin: 52px auto;
+  }
+}
+.hex:before, .hex:after {
+  position: absolute;
+  width: inherit; height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+}
+.hex:before {
+  transform: rotate(60deg);
+}
+.hex:after {
+  transform: rotate(-60deg);
+}
+.hex:hover {
+  cursor: pointer;
+}
+
+.modalTitle{
+  vertical-align: middle;
+  margin: auto;
+  font-family: auto;
+  font-size: xxx-large;
+  list-style: none;
+}
+
+.modal-header{
+  margin-left: 50px;
+  ul{
+    display: inline-flex;
+  }
+}
+
+.close-animatedModal {
+  font-size: 35px;
+  float: right;
+  cursor: pointer;
+}
+
+
+.sei {
+	background: #e8eef6;
+}
+.sei:hover {
+	background: #d9e8fc;
+}
+  
+.sei2{
+	background: #d7e1f0;
+}
+.sei2:hover{
+	background: #d0def5;
+}
+  
+.sei3{
+	background: #c1dcbd;
+}
+.sei3:hover{
+	background: #a5ca9f;
+}
+  
+.rye{
+	background: #f3e3c5;
+}
+.rye:hover{
+	background: #f5d9a5;
+}
+.olivasur {
+	background: #acbfa9;
+}
+.olivasur:hover {
+	background: #9cb199;
+}
